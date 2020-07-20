@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/fragment_posts">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_user_id"
+        android:contentDescription="@string/desc_name_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10dp"
+        />
+
+        <TextView
+            android:id="@+id/tv_title_post"
+            android:contentDescription="@string/nav_title_posts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_below="@+id/tv_user_id"
+            android:layout_alignLeft="@+id/tv_user_id"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_describe_post"
+            android:contentDescription="@string/desc_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_below="@+id/tv_title_post"
+            android:textColor="@android:color/black"
+            android:layout_alignLeft="@+id/tv_user_id"
+            android:layout_marginBottom="20dp"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Frame</string>
+    <string name="nav_title_posts">Posts</string>
+    <string name="nav_title_albums">Albums</string>
+    <string name="nav_title_todos">Todos</string>
+    <string name="desc_post">Conteudo do post</string>
+    <string name="desc_name_user">Nome do usuario</string>
+    <string name="todos_label_completed">Completed</string>
+</resources>
